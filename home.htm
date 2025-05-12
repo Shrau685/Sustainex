@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-waste Exchange</title>
+  <link rel="stylesheet" href="home.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="nav-items">
+        <h1 class="nav-title">Sustainex</h1>
+        <div class="nav-links">
+          <a href="home.htm">Home</a>
+          <a href="postItem.html">Post Item</a>
+          <a href="browse.html">Browse Item</a>
+          <a href="contact.html">Contact</a>
+          <a href="signUp.html">Register</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <img src="images/background-1.png" id="slideshow" usemap="#image-map">
+  <map name="image-map">
+    <area target="" alt="Register" title="Register" href="signUp.html" coords="1692,502,502,200" shape="rect">
+  </map>
+
+  <!-- <div id="features">
+
+    <Div id="f1">
+      <h1>Exchange</h1>
+    </Div>
+
+    <div id="f2">
+      <h1>Sell Ewaste</h1>
+    </div>
+
+    <div id="f3">
+      <h1>Buy Ewaste</h1>
+    </div>
+
+  </div> -->
+  <div class="team-section">
+    <h2 style="margin-left: 70px;">Know Our Features : </h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <a href="postItem.html"><img src="images/exchange.png" alt="exchange"></a>
+        <h2>Exchange E-waste</h2>
+        <p>"Our platform enables users to easily exchange electronic waste, promoting responsible recycling and extending the life of electronic devices."</p>
+      </div>
+      <div class="team-member">
+        <a href="postItem.html"><img src="images/sell.png" alt="Sell"></a>
+        <h2>Sell E-waste</h2>
+        <p>"Users can quickly list and sell their unused or broken electronic devices, turning e-waste into value while supporting eco-friendly disposal."</p>
+      </div>
+      <div class="team-member">
+        <a href="browse.html"><img src="images/buy.png" alt="buy"></a>
+        <h2>Buy E-waste</h2>
+        <p>"Our platform enables users to easily buy electronic waste, promoting responsible recycling and extending the life of electronic devices."</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <script>
+    window.onload = function () {
+      imageMapResize();
+    };
+  </script>
+
+<footer>
+  <div id="footer">
+    <div>
+      <h4>Connect with us :</h4> 
+      <p><i class="fas fa-phone"></i> 9518599921</p>
+      <p><i class="fas fa-envelope"></i> joshi.shravani2005@gmail.com</p>
+    </div>
+    
+    <div>
+      <h4>Important links :</h4>
+      <p><i class="fa-sharp-duotone fa-solid fa-globe"></i><a href="browse.html"> Browse Products</a></p>
+      <p><i class="fa-sharp-duotone fa-solid fa-envelope"></i><a href="postItem.html"> Post Item</a></p>
+      <p><i class="fa-sharp-duotone fa-solid fa-phone"></i><a href="contact.html"> Contact us</a></p>
+      <p><i class="fa-sharp-duotone fa-solid fa-user"></i><a href="signUp.html"> Register</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

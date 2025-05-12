@@ -1,0 +1,144 @@
+body {
+    background-color:blanchedalmond;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.nav-items {
+    background-color: rgb(37, 46, 104);
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.nav-title {
+    color: wheat;
+    font-size: 24px;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    background-color: rgb(23, 186, 186);
+    padding: 10px 20px;
+    font-size: larger;
+    color: wheat;
+    border-radius: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #ff005d;
+    transform: scale(1.1);
+}
+#slideshow{
+    height:400px;
+    width:90%;
+    margin-left: 5%;
+}
+
+
+.team-section {
+    margin-top: 50px;
+    text-align: center;
+    animation: fadeInUp 2s ease;
+  }
+  
+  .team-section h2 {
+    color: #82aa08;
+    margin-bottom: 30px;
+    
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .team-member {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+  }
+  
+  .team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #00d4ff;
+  }
+  
+  .team-member h2 {
+    
+    color: #260658;
+  }
+  
+  .team-member p {
+    color: #61bc21;
+    font-size: 1rem;
+    text-align: justify;
+  }
+  #footer{
+    background-image: url("images/background2.jpg");
+    background-size:auto;
+    background-position: center;
+    background-repeat:inherit;
+    text-align:left;        /* Centers the text */
+    padding: 20px 150px;    
+    margin:50px 100px 0px 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    width:80%;
+  }
+  #footer::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(138, 144, 149, 0.853); /* Black overlay with 50% opacity */
+    z-index: 0;
+}
+
+#footer p,
+#footer a {
+    color: beige;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-weight: bold;   
+}
+#footer h4{
+    font-weight: bolder; 
+    color: beige;
+    position: relative;
+    z-index: 1;
+}
